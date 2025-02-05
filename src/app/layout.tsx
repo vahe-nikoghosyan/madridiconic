@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 // import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Image from "next/image";
 
 // const geistSans = Geist({
 //     variable: "--font-geist-sans",
@@ -46,7 +47,7 @@ export default function RootLayout({
                             className="hidden sm:block w-full max-w-[728px] min-h-[90px]
                             {/*bg-gray-700 */}
                             mx-auto sticky top-[64px]">
-                            <img src="https://tpc.googlesyndication.com/simgad/11816286033359743359"
+                            <Image src="https://tpc.googlesyndication.com/simgad/11816286033359743359"
                                  width="728" height="90" alt="" className="img_ad"/>
                         </div>
 
@@ -63,7 +64,7 @@ export default function RootLayout({
                                href="https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjstaR_wb0612pA9nm7ZA_PbWC37nKgCqzxy3qi7pwDK5kpshnFSY3XTS8vofJQNfzwcHnJ8eVIhhi2Zi21sRCxfWA84vXqOb7S7du05HpD2frRPVU7JG_v1hVYeQncLodKR2DFwA08SxqHBDqkn7FF6xtzGMZHkQgkHoExzs0hoWhN-jlAuzvrjtVzzTEzIbMj5wkAOtNebY9So5e4XB9aCh9eqfLH1hZfBTs3gg44fkifxPQAWHvsWWl5YUNWzZ88Q2juDF1iHVckT7ccUS6av15GTxrGR1OIXsoiQw4ny9HqBWcqp4VL3im3QuFURXAGqL7648qviAJStxyfA01shSQfy_Ko2gekYjvsZqSnxeUuz_haRrH87T-nJ0Ppak39XP_RRfoiMmP3wxm-F8&amp;sai=AMfl-YTrwZCQi0ufxTpBi8jT-uuXrvgUYr_nxgp_mb04XKRfwBfnMB37Njd4Jl_gTLYngeMG4_vLT2pFadrbU5GEOkByMgt22bI_qxefybKSo5KlyfoP6yoTkddgPPgVKARYwm6G&amp;sig=Cg0ArKJSzDUDZnePloeF&amp;fbs_aeid=%5Bgw_fbsaeid%5D&amp;adurl=https://play.realmadrid.com/home&amp;nm=3"
                                // onFocus="ss('aw0')" onMouseDown="st('aw0')" onMouseOver="ss('aw0')"
                                // onclick="ha('aw0')"
-                            ><img
+                            ><Image
                                 src="https://tpc.googlesyndication.com/simgad/17780049775012052191"
                                 width="728" height="90" alt="" className="img_ad"/></a>
                         </div>
