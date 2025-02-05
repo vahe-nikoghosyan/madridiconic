@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c4aa26f-cf6a-4a38-9c96-52ffd5a2e3fc" name="Changes" comment="some layout adjasments">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="7c4aa26f-cf6a-4a38-9c96-52ffd5a2e3fc" name="Changes" comment="docker files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +54,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
-    "settings.editor.selected.configurable": "AtomSettingsConfigurable",
+    "prettierjs.PrettierConfiguration.Package": "/Users/vahenikoghosyan/Desktop/Madrid Iconic/frontend/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "/Users/vahenikoghosyan/Desktop/Madrid Iconic/frontend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -102,7 +105,7 @@
       <workItem from="1738330978015" duration="3533000" />
       <workItem from="1738673666619" duration="7678000" />
       <workItem from="1738731318902" duration="1217000" />
-      <workItem from="1738759520374" duration="8803000" />
+      <workItem from="1738759520374" duration="11801000" />
     </task>
     <task id="LOCAL-00001" summary="adjast initial flow">
       <option name="closed" value="true" />
@@ -128,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738765371646</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="docker files">
+      <option name="closed" value="true" />
+      <created>1738778058055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738778058055</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,9 +148,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adjast initial flow" />
     <MESSAGE value="some layout adjasments" />
-    <option name="LAST_COMMIT_MESSAGE" value="some layout adjasments" />
+    <MESSAGE value="docker files" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker files" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
