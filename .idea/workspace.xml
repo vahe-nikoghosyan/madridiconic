@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c4aa26f-cf6a-4a38-9c96-52ffd5a2e3fc" name="Changes" comment="some layout adjasments">
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <workItem from="1738330978015" duration="3533000" />
       <workItem from="1738673666619" duration="7678000" />
       <workItem from="1738731318902" duration="1217000" />
-      <workItem from="1738759520374" duration="3332000" />
+      <workItem from="1738759520374" duration="4432000" />
     </task>
     <task id="LOCAL-00001" summary="adjast initial flow">
       <option name="closed" value="true" />
