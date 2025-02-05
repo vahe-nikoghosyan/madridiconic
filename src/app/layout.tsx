@@ -24,25 +24,31 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-        <body className="bg-gray-100 text-gray-900">
+        <body className="bg-gray-100 text-gray-900 max-w-full overflow-x-hidden">
         {/* Header */}
         <header className="bg-white shadow fixed top-0 w-full z-50">
-            <div className="container w-[1260px] mx-auto p-4">
+            <div className="container mx-auto px-4">
                 <h1 className="text-xl font-bold">Logo</h1>
             </div>
         </header>
 
         {/* Main Content */}
         <main className="bg-gray-900 py-8 pt-[64px]">
-            <div className="container w-[1260px] mx-auto">
-                <div className="flex gap-4">
+            <div className="container mx-auto px-4">
+                <div className="flex flex-col sm:flex-row gap-4">
                     {/* Left Section */}
-                    <div className="w-[178px] min-h-[250px] bg-gray-800 sticky top-[64px]"></div>
+                    <div className="hidden sm:block w-[178px] min-h-[250px] bg-gray-800 sticky top-[64px]"></div>
 
                     {/* Center Section */}
-                    <div className="w-[764px] flex flex-col gap-4">
+                    <div className="w-full sm:w-[764px] flex flex-col gap-4">
                         {/* Top Ad */}
-                        <div className="w-[728px] min-h-[90px] bg-gray-700 mx-auto sticky top-[64px]"></div>
+                        <div
+                            className="hidden sm:block w-full max-w-[728px] min-h-[90px]
+                            {/*bg-gray-700 */}
+                            mx-auto sticky top-[64px]">
+                            <img src="https://tpc.googlesyndication.com/simgad/11816286033359743359"
+                                 width="728" height="90" alt="" className="img_ad"/>
+                        </div>
 
                         {/* News Content */}
                         <div className="bg-white flex-1 p-4 overflow-y-auto rounded shadow">
@@ -50,11 +56,11 @@ export default function RootLayout({
                         </div>
 
                         {/* Bottom Ad */}
-                        <div className="w-[728px] min-h-[90px] bg-gray-700 mx-auto"></div>
+                        <div className="hidden sm:block w-full max-w-[728px] min-h-[90px] bg-gray-700 mx-auto"></div>
                     </div>
 
                     {/* Right Section */}
-                    <div className="w-[318px] flex flex-col gap-4 sticky top-[64px]">
+                    <div className="hidden sm:flex w-[318px] flex-col gap-4 sticky top-[64px]">
                         <div className="min-h-[250px] bg-gray-800"></div>
                         <div className="min-h-[250px] bg-gray-800"></div>
                     </div>
@@ -63,11 +69,13 @@ export default function RootLayout({
         </main>
 
         {/* Footer */}
-        <footer className="bg-white shadow">
-            <div className="container w-[1260px] mx-auto p-4 text-center">
+        <footer className="bg-white shadow pb-[50px] sm:pb-0">
+            <div className="container mx-auto px-4">
                 <p className="text-sm">Footer Content</p>
             </div>
         </footer>
+        <div className="sm:hidden fixed bottom-0 left-0 w-full h-[50px] bg-gray-700 z-50"></div>
+
         </body>
         </html>
     );
