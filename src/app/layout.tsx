@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 // import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
@@ -25,6 +27,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics gaId="G-0W1EH7VYV0" />
+
       <body className="bg-gray-100 text-gray-900 max-w-full overflow-x-hidden">
         {/* Header */}
         <header className="bg-white shadow fixed top-0 w-full z-50">
@@ -38,16 +42,20 @@ export default function RootLayout({
           <div className="container mx-auto px-4">
             <div className="flex flex-col sm:flex-row gap-4">
               {/* Left Section */}
-              <div className="hidden sm:block w-[178px] h-[600px] bg-gray-800 sticky top-[64px]">
+              <div className="hidden sm:block w-[178px] h-[600px] sticky top-[64px]">
                 {/* Half Page Ad */}
                 <div className="w-[160px] h-[600px]">
-                  {/*<Image*/}
-                  {/*  // src="..."*/}
-                  {/*  width={160}*/}
-                  {/*  height={600}*/}
-                  {/*  alt=""*/}
-                  {/*  className="img_ad"*/}
-                  {/*/>*/}
+                  <a
+                    href="https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=C4CmISYmkZ4PIBOvqkdUP34WysQiLyszRfKWh1oSiE_H1veOaRRABILnbnqABYDSgAfOaseA9yAEC4AIAqAMByAMIqgTbAk_QRulDps8lYXmN3C7kJ0-cKsF82sgQF1VF0k735_tUwZdkXV3_3XCGABH03NgFYxp9VMZxOpKT_DV7G16qiVp77JUdSv9AZNz0fTIW1-Y8uKIMmeptahS-IAM8VPgndRSSBErC2xPmJsgU3fCMtZ2M_fsHJR2kiwJUfsdUmsOZTPy4TbHic_hEdiE7qEvFZENbpel8t2_25fiGCTEDMi10EW46qq-Kszif1MYklOm2O_o-CTfZN5Vrj_nuFVrVbyfL-8N20ITvHLYXTyS0RX3yQMQH7vrBSLcuWYP3XW1bY3Xiin5VMrwIbR_b1abiu9bCdxv4W_mEonQafUlajfgMr5lrK7dwObIgSxUEtrqLuoGCtSy7XCffPxTo1ajOZCvFe1TzCxJMpQORs4hwx76Sn1d6DOsoTWWeFkzvZrGa_4W-mVi16PwaopdnhEf1HRIb3GMub78caBw-wAS3hc-zgwXgBAGIBfyuzLtRkAYBoAYCgAfz0oHAGIgHAZAHAqgH1ckbqAfZtrECqAemvhuoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5oGqAfz0RuoB5bYG6gHqpuxAqgH4L2xAqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQgAEAIYHTIBADoQn9CAgICABIDAgICAoKiAAki9_cE6WNTfu_7lrosDsQlQVknRLxQgBYAKA5gLAcgLAdoMFgoLELCGm-34i7nTswESAgEDQAFKASWqDQJBTcgNAeINEwizm7z-5a6LAxVrdaQEHd-CLIbqDRMIvuC8_uWuiwMVa3WkBB3fgiyG2BMN0BUBmBYB-BYBgBcBshcCGAG6FwI4AbIYCRIC6WgYAiIBAdAYAQ&amp;ae=1&amp;ase=2&amp;gclid=CjwKCAiA2JG9BhAuEiwAH_zf3prKzRMtRwa5qR31NWIz74YZRxRRa7MxkL1JR9hOnDAuU1yokkkynxoCLJ0QAvD_BwE&amp;num=1&amp;cid=CAQSQwCjtLzMpo3sEls1Iflt3V2-JDYDtyKTQxwp8L19COaFPyLsk1sSrZLpUQN3g8wu5fIgo9Xzu4E0HI2SkXIX7dJKyCwYAQ&amp;sig=AOD64_1CLd-Lyob2oV0VBrTcRdi_yocmBg&amp;client=ca-pub-5719939684469996&amp;rf=5&amp;nx=CLICK_X&amp;ny=CLICK_Y&amp;uap=UACH(platform)&amp;uapv=UACH(platformVersion)&amp;uaa=UACH(architecture)&amp;uam=UACH(model)&amp;uafv=UACH(uaFullVersion)&amp;uab=UACH(bitness)&amp;uaw=UACH(wow64)&amp;uafvl=UACH(fullVersionList)&amp;nb=2&amp;adurl=https://fasttv.am%3Fgad_source%3D5%26gclid%3DCjwKCAiA2JG9BhAuEiwAH_zf3prKzRMtRwa5qR31NWIz74YZRxRRa7MxkL1JR9hOnDAuU1yokkkynxoCLJ0QAvD_BwE"
+                    target="_top"
+                  >
+                    <Image
+                      height={600}
+                      width={160}
+                      src="https://tpc.googlesyndication.com/daca_images/simgad/2036988990368448555"
+                      alt={""}
+                    />
+                  </a>
                 </div>
               </div>
               {/* Center Section */}

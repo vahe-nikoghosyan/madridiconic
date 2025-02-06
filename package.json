@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^15.1.6",
     "next": "15.1.6",
     "pnpm": "^10.2.0",
     "prettier": "^3.4.2",
