@@ -30,6 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <title>Madrid Iconic</title>
+        <meta name="google-adsense-account" content="ca-pub-4237740863110900" />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4237740863110900"
