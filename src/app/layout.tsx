@@ -19,6 +19,9 @@ import Head from "next/head";
 export const metadata: Metadata = {
   title: "Madrid Iconic Title",
   description: "Welcome to Madrid Iconic",
+  other: {
+    "google-adsense-account": "ca-pub-4237740863110900",
+  },
 };
 
 export default function RootLayout({
@@ -30,7 +33,6 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <title>Madrid Iconic</title>
-        <meta name="google-adsense-account" content="ca-pub-4237740863110900" />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4237740863110900"
