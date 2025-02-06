@@ -80,8 +80,8 @@ export default function RootLayout({
                   >
                     <Image
                       src="https://tpc.googlesyndication.com/simgad/11816286033359743359"
-                      width="728"
-                      height="90"
+                      width={728}
+                      height={90}
                       alt=""
                       className="img_ad"
                     />
@@ -99,8 +99,8 @@ export default function RootLayout({
                   >
                     <Image
                       src="https://tpc.googlesyndication.com/simgad/1721533747460821816"
-                      width="300"
-                      height="250"
+                      width={300}
+                      height={250}
                       alt=""
                       className="img_ad"
                     />
@@ -114,8 +114,8 @@ export default function RootLayout({
                   >
                     <Image
                       src="https://tpc.googlesyndication.com/simgad/7114275783402030868"
-                      width="300"
-                      height="250"
+                      width={300}
+                      height={250}
                       alt=""
                       className="img_ad"
                     />
@@ -142,8 +142,8 @@ export default function RootLayout({
           >
             <Image
               src="https://tpc.googlesyndication.com/simgad/17780049775012052191"
-              width="728"
-              height="90"
+              width={728}
+              height={90}
               alt=""
               className="img_ad"
             />

@@ -2,7 +2,15 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    remotePatterns: [{ hostname: "tpc.googlesyndication.com" }],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "tpc.googlesyndication.com",
+        port: "",
+        pathname: "/simgad/**",
+      },
+    ],
+    unoptimized: true,
   },
 };
 
