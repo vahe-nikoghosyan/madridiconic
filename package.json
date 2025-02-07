@@ -14,7 +14,8 @@
     "pnpm": "^10.2.0",
     "prettier": "^3.4.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-tweet": "^3.2.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

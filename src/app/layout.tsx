@@ -76,7 +76,7 @@ export default function RootLayout({
         {/* Header */}
         <header className="bg-white shadow fixed top-0 w-full z-50">
           <div className="container mx-auto px-4">
-            <h1 className="text-xl font-bold">Logo</h1>
+            <h1 className="text-xl font-bold">Madrid Iconic</h1>
           </div>
         </header>
 
@@ -105,15 +105,15 @@ export default function RootLayout({
               <div className="w-full sm:w-[764px] flex flex-col gap-4">
                 {/* Top Ad */}
                 {/*<div className="hidden sm:block w-full max-w-[728px] min-h-[90px] mx-auto sticky top-[64px]">*/}
-                <div className="hidden sm:block w-[728px] h-[90px] mx-auto sticky top-[64px]">
-                  <Image
-                    src="https://tpc.googlesyndication.com/simgad/17780049775012052191"
-                    width={728}
-                    height={90}
-                    alt=""
-                    className="img_ad"
-                  />
-                </div>
+                {/*<div className="hidden sm:block w-[728px] h-[90px] mx-auto sticky top-[64px]">*/}
+                {/*  <Image*/}
+                {/*    src="https://tpc.googlesyndication.com/simgad/17780049775012052191"*/}
+                {/*    width={728}*/}
+                {/*    height={90}*/}
+                {/*    alt=""*/}
+                {/*    className="img_ad"*/}
+                {/*  />*/}
+                {/*</div>*/}
 
                 {/* News Content */}
                 <div className="bg-white flex-1 p-4 overflow-y-auto rounded shadow">
