@@ -101,7 +101,7 @@
       <workItem from="1738330978015" duration="3533000" />
       <workItem from="1738673666619" duration="7678000" />
       <workItem from="1738731318902" duration="1217000" />
-      <workItem from="1738759520374" duration="22267000" />
+      <workItem from="1738759520374" duration="24676000" />
     </task>
     <task id="LOCAL-00001" summary="adjast initial flow">
       <option name="closed" value="true" />
@@ -175,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738846880000</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add google ad">
+      <option name="closed" value="true" />
+      <created>1738847567229</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738847567229</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

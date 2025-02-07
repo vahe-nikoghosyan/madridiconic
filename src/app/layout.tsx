@@ -19,6 +19,18 @@ import Head from "next/head";
 export const metadata: Metadata = {
   title: "Madrid Iconic Title",
   description: "Welcome to Madrid Iconic",
+  openGraph: {
+    title: "Madrid Iconic Title",
+    description: "Welcome to Madrid Iconic",
+    images: [
+      {
+        url: "https://www.example.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Madrid Iconic",
+      },
+    ],
+  },
   other: {
     "google-adsense-account": "ca-pub-4237740863110900",
   },
@@ -38,6 +50,20 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4237740863110900"
           crossOrigin="anonymous"
         ></script>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4237740863110900"
+          crossOrigin="anonymous"
+        ></script>
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-4237740863110900"
+          data-ad-slot="8409648108"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         <GoogleAnalytics gaId="G-0W1EH7VYV0" />
       </Head>
 
