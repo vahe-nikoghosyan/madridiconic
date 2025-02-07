@@ -47,6 +47,11 @@ export default function RootLayout({
         <title>Madrid Iconic</title>
         <script
           async
+          src="https://platform.twitter.com/widgets.js"
+          charSet="utf-8"
+        ></script>
+        <script
+          async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4237740863110900"
           crossOrigin="anonymous"
         ></script>
